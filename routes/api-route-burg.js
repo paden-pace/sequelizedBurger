@@ -52,19 +52,19 @@ module.exports = function(app) {
 
 
 
-// PUT route for updating Burgerss. We can get the updated todo data from req.body
-//   app.put("/api/burgers", function(req, res) {
-//     var updatedVersion = {
-//       name: req.body.name,
-//       devoured: false
-//     }
-//     db.Burger.update(updatedVersion,{
-//       where: {
-//         id: req.body.id
-//       }
-//     }).then(function(results){
-//       res.json(results);
-//     });
-//   });
+//PUT route for updating Burgerss. We can get the updated todo data from req.body
+  app.put("/api/burgers", function(req, res) {
+    var updatedVersion = {
+      name: req.body.name,
+      devoured: req.body.devoured
+    }
+    db.Burger.update(updatedVersion,{
+      where: {
+        id: req.body.id
+      }
+    }).then(function(results){
+      res.json(results);
+    });
+  });
 };
  
