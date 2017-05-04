@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sequelize Burgers!</title>
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./css/burger_style.css" type="text/css" />
+</head>
+
+
+<body>
+    <div class="body">
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-8">
+                <img src="./../assets/img/burgertime.jpg" alt="BurgerTime" height="200px" width="100%">
+            </div>
+            <div class="col-lg-2">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-3">
+                <h2>Existing Burgers!</h2>
+                <span class="uneaten-container">
+                </span>
+            </div>
+
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-2 col2">
+                <h2>Add a Burger!</h2>
+                <form class="create-update-form" action="/" method="POST">
+                    <div class="form-group">
+                        <label for="burg">New Burger:</label>
+                        <input type="text" id="burg" name="burger_name">
+                    </div>
+                    <button type="submit">Add The Burger</button>
+                </form>
+            </div>
+
+            <div class="col-lg-1"></div>
+
+            <div class="col-lg-3">
+                <h2>Burgers that have been eaten!</h2>
+                <span class="eaten-container">
+                </span>
+            </div>
+            
+            <div class="col-lg-1"></div>
+
+        </div>
+    <div class="body">
+</body>
+
+</html>

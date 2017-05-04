@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: #e4a834;
+    color: #f9ad19;
+}
+.body{
+    background: #000000;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+
+h2{
+    color: #d4272b;
+}
+
+button{
+    color: #000000;
+}
+
+.create-update-form{
+    color: #000000;
+}
+
+.col-lg-3{
+    border: solid 8px #243d99;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.col2{
+    border: solid 8px #1e9948;
+    margin: 15px 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
