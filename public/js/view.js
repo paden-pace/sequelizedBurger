@@ -147,11 +147,11 @@ $(document).ready(function() {
     newBurgerInput.css("display", "none");
     newInputRow.append(newBurgerInput);
     var newDeleteBtn = $("<button>");
-    newDeleteBtn.addClass("delete btn btn-default");
-    newDeleteBtn.text("Remove from Menu");
+    newDeleteBtn.addClass("delete btn d-btn");
+    newDeleteBtn.text("Remove");
     newDeleteBtn.data("id", burger.id);
     var newDevourBtn = $("<button>");
-    newDevourBtn.addClass("devour btn btn-default");
+    newDevourBtn.addClass("devour btn d-btn");
     if (burger.devoured) {
         newDevourBtn.text("Make Again");
     } else {

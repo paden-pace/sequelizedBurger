@@ -17,6 +17,12 @@ h1{
 
 h2{
     color: #d4272b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    color: #000000;
 }
 
 button{
@@ -27,15 +33,38 @@ button{
     color: #000000;
 }
 
-.col-lg-3{
+.row-res{
     border: solid 8px #243d99;
-    margin: 15px 0;
+    margin: 25px 0;
     font-size: 18px;
 }
 
-.col2{
+.row-add{
     border: solid 8px #1e9948;
-    margin: 15px 0;
+    margin: 25px 0px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+span{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.list-group-item{
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+.d-btn{
+    color: #ffffff;
+    background-color: #555555;
+    border-radius: 0;
+    padding: 3px;
+    border: solid 1px #ffffff;
+    margin: 4px 0px 4px 10px;
+}
+.burger-item{
+    border-top: solid 3px #f9ad19;
 }
