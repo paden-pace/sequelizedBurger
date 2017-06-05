@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Texas2015",
-    "database": "burgers_db",
+    "database": "burgers_seq_db",
     "host": "localhost",
     "dialect": "mysql"
   },
