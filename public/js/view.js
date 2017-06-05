@@ -167,6 +167,8 @@ $(document).ready(function() {
   }
 
   // This function inserts a new todo into our database and then updates the view
+ 
+
   function insertBurger(event) {
     event.preventDefault();
     console.log("InsertBurger Exicuted");
